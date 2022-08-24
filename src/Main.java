@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Cupcake> cupcakeMenu = new ArrayList<>();
+        ArrayList<Cupcake> cupcakeMenu = new ArrayList<>();
         Cupcake cupcake = new Cupcake();
         RedVelvet redVelvet = new RedVelvet();
         Chocolate chocolate = new Chocolate();
@@ -34,7 +34,7 @@ public class Main {
         cupcakeMenu.add(redVelvet);
         cupcakeMenu.add(chocolate);
         System.out.println(redVelvet.getPrice());
-        List<Drinks> drinkMenu = new ArrayList<>();
+        ArrayList<Drinks> drinkMenu = new ArrayList<>();
         Drinks water = new Drinks();
         Soda soda = new Soda();
         Milk milk = new Milk();
@@ -60,6 +60,7 @@ public class Main {
         drinkMenu.add(soda);
         drinkMenu.add(milk);
         System.out.println(milk.getPrice());
+        new Order( cupcakeMenu, drinkMenu);
     }
 
 }

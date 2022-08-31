@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -59,8 +58,73 @@ public class Main {
         drinkMenu.add(water);
         drinkMenu.add(soda);
         drinkMenu.add(milk);
-        System.out.println(milk.getPrice());
         new Order( cupcakeMenu, drinkMenu);
     }
 
 }
+
+class Cupcake {
+    public double price;
+
+    public double getPrice(){
+        return this.price;
+    }
+
+    public void setPrice(double price){
+        this.price = price;
+    }
+
+    public void type(){
+        System.out.println("A basic, generic cupcake, with vanilla frosting");
+    }
+
+}
+
+class RedVelvet extends Cupcake{
+    public void type(){
+        System.out.println("A red velvet based cupcake, with cream cheese frosting.");
+    }
+
+}
+
+class Chocolate extends Cupcake{
+    public void type(){
+        System.out.println("A chocolate based cupcake, with chocolate frosting.");
+    }
+}
+
+class Drinks {
+
+    public double price;
+
+    public double getPrice(){
+        return this.price;
+    }
+
+    public void setPrice(double price){
+        this.price = price;
+    }
+
+    public void type(){
+        System.out.println("A bottle of water");
+    }
+
+}
+
+class Soda extends Drinks {
+
+    public void type(){
+        System.out.println("A bottle of soda");
+    }
+
+}
+
+class Milk extends Drinks{
+
+    public void type(){
+        System.out.println("A bottle of milk");
+    }
+
+}
+
+

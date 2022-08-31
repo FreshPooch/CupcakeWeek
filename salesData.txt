@@ -1,0 +1,16 @@
+2022-08-24
+16:06:38.222297
+Soda@5197848c
+Chocolate@2e5d6d97
+Cupcake@238e0d81
+2022-08-24
+16:13:49.943278500
+Milk@5197848c
+Chocolate@2e5d6d97
+RedVelvet@238e0d81
+Cupcake@31221be2
+2022-08-26
+13:56:08.791008500
+Chocolate@5197848c
+RedVelvet@2e5d6d97
+Cupcake@238e0d81
